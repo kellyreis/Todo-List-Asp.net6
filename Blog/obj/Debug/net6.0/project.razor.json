@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Kelly\\source\\repos\\kellyreis\\Todo-List-Asp.net6\\Todo\\Todo.csproj",
+  "FilePath": "c:\\Users\\Kelly\\source\\repos\\kellyreis\\Todo-List-Asp.net6\\Blog\\Blog.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,7 +16295,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "Todo",
+  "RootNamespace": "Blog",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
