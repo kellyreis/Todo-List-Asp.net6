@@ -13,6 +13,7 @@ namespace Blog.Controllers
             [FromServices] BlogDataContext context
             )
         {
+
             try
             {
                 var categories = await context.Categories.ToListAsync();
@@ -77,7 +78,7 @@ namespace Blog.Controllers
                 await context.Categories.AddAsync(categorie);
                 await context.SaveChangesAsync();
 
-                return Created($"v1/categories/{categorie.Id}", new ResultViewModel<Category>(Category));
+                return Created($"v1/categories/{categorie.Id}", new ResultViewModel<Category>(categorie));
 
             }
             catch (DbUpdateException ex)
